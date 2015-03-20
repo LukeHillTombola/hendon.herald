@@ -1,0 +1,169 @@
+﻿* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+article h2 {
+	font-weight: bold;
+	font-size: 26px;	
+}
+
+article {
+	border-bottom-width: 2px;
+	border-bottom-color: #a6a6a6;
+	border-bottom-style: solid;
+	margin-top: 8px;
+	padding-bottom: 8px;
+}
+
+article img {
+	height: 225px;
+	width: 300px;
+}
+
+article div {
+	width: 476px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+article:first-child img {
+	height: 278px;
+	width: 370px;
+}
+
+article:first-child div {
+	width: 406px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside {
+	display: inline-block;
+	width: 196px;
+	vertical-align: top;
+}
+
+aside h3 {
+	font-size: 17px;
+	margin-top: 6px;
+	padding: 4px;
+}
+
+body {
+	background-color: #aaa;
+	color: #404040;
+	font-size: 14px;
+}
+
+#content-container {
+	width: 980px;
+	margin:0 auto 0 auto;
+	background-color: #fff;
+}
+
+footer {
+	color: #fff;
+	background-color: #404040;
+	padding: 8px;
+}
+
+footer img {
+	height: 108px;
+	width: 85px;
+}
+
+footer p {
+	display: inline-block;
+	width: 800px;
+	vertical-align: top;
+}
+
+footer div {
+	text-align: center;
+}
+
+header {
+	padding: 8px;
+	background-color: #700b0b;
+}
+
+h1 {
+	background-color: #700b0b;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+h3 {
+	background-color: #700b0b;
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+#logo {
+	height: 60px;	
+}
+
+main {
+	background-color: #f2f2f2;
+	width: 780px;
+	display: inline-block;
+}
+
+nav {
+	display: inline-block
+}
+
+nav ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav li a:hover {
+	color: #aaa;
+}
+
+nav li {
+	list-style-position: inside;
+	width: 40px;
+	padding-left: 14px;
+	display: inline-block;
+	border-left: 1px solid white;
+}
+
+nav li:hover {
+	color: #aaa;
+}
+
+nav li:first-child {
+	border: none;
+}
+
+nav h1 {
+	display: inline-block;
+}
+
+.table-pointlessness-league {
+	width: 200px;
+}
+
+.table-pointlessness-league th {
+	background-color: #404040;
+	color: #aaa
+}
+
+.table-pointlessness-league th:first-child {
+	text-align: left;
+}
+
+.table-pointlessness-league th:first-child + th {
+	text-align: right;
+	width: 50px;
+}
